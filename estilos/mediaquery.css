@@ -1,0 +1,270 @@
+@charset "UTF-8";
+@media screen and (max-width:1236px){
+   #vagas > div > img{
+      margin: 5% auto 0 auto;
+      width: 900px;
+      height: auto;
+      border-radius: 10px;
+      border: 4px solid rgba(206, 206, 206, 0.259);  
+      -webkit-mask-image: linear-gradient(to left, transparent 0px, rgb(0, 0, 0) 50%);
+   }
+   aside{
+      background-color: #fdeaea51;
+      border-radius: 10px;
+      padding: 50px;
+      width: 700px;
+      min-width: 500px;
+      margin: 5% auto;
+   }
+   aside > #comentario{
+      font-size: 24px;
+      line-height: 30px;
+   }
+   footer{
+      background-color: #fdeaea51;
+      border-radius: 10px;
+      padding: 50px;
+      margin-top: 5%;
+      width: 90%;
+   }
+}
+@media screen and (max-width:1012px){
+   footer{
+      background-color: #fdeaea51;
+      border-radius: 10px;
+      margin-top: 5%;
+      width:auto;
+   }
+ }
+@media screen and (max-width:992px){
+    header > h1{
+       font-size: 20px;
+       margin-left: 20px;
+       margin-top: 19px;
+    }
+    nav{
+       margin-left: 30px;
+       margin-right: 0;
+    }
+    #cadastrar{
+       margin-right: 10px;
+    }
+    #login-out{
+       margin-left: 0;
+    }
+    #sobre-nos > h2{
+       font-size: 25px;
+    }
+    #sobre-nos > p{
+       font-size: 16px;
+    }
+    #container{
+       display: grid;
+       grid-template-columns: 330px 330px;
+       justify-content: center;
+       align-items: center;
+       margin-top: 50px;
+       text-align: center;
+    }
+    #vagas > div > img{
+       margin: 5% auto 0 auto;
+       width: 600px;
+       height: auto;
+       border-radius: 10px;
+       border: 4px solid rgba(206, 206, 206, 0.259);  
+       -webkit-mask-image: linear-gradient(to left, transparent 0px, rgb(0, 0, 0) 50%);
+    }
+    .caixa-vaga2{
+       display: grid;
+       grid-template-columns: 300px ;
+       margin-left: 10%;
+       margin-top: 2%;
+       border: 1px solid rgba(0, 0, 0, 0.074);
+       border-radius: 10px;
+       width: 590px;
+       height: 120px;
+       padding: 20px;
+    }
+    aside{
+       background-color: #fdeaea51;
+       border-radius: 10px;
+       padding: 50px;
+       width: auto;
+       margin: 5% auto;
+    }
+    aside > #comentario{
+       font-family: Arial, Helvetica, sans-serif;
+       text-align: center;
+       font-size: 20px;
+       line-height: 30px;
+       font-weight: normal;
+       margin-top: 5%;
+    }
+    @media screen and (max-width:816px){
+      aside{
+         background-color: #fdeaea51;
+         border-radius: 10px;
+         padding: 50px;
+         width: 600px;
+         margin: 5% auto;
+      }
+      footer{
+         background-color: #fdeaea51;
+         border-radius: 10px;
+         margin-top: 5%;
+         width:auto;
+      }
+    }
+    @media screen and (max-width:768px){
+      aside{
+         background-color: #fdeaea51;
+         border-radius: 10px;
+         padding: 50px;
+         width: auto;
+         margin: 5% auto;
+      }
+      aside > #comentario{
+         font-family: Arial, Helvetica, sans-serif;
+         text-align: center;
+         font-size: 20px;
+         line-height: 30px;
+         font-weight: normal;
+         margin-top: 5%;
+      }
+      #vagas > div > img{
+         margin: 5% auto 0 auto;
+         width: 600px;
+         height: auto;
+         border-radius: 10px;
+         border: 4px solid rgba(206, 206, 206, 0.259);  
+         -webkit-mask-image: linear-gradient(to left, transparent 0px, rgb(0, 0, 0) 50%);
+      }
+    }
+
+    @media screen and (max-width:728px){
+      header{
+         display: flex;
+         flex-direction: column;
+      }
+      header h1{
+         text-align: center;
+         font-size: 30px;
+      }
+      header nav{
+         justify-content: center;
+      }
+      aside{
+         background-color: #fdeaea51;
+         border-radius: 10px;
+         padding: 50px;
+         width: 200px;
+         min-width: 190px;
+         margin: 5% auto;
+      }
+      footer{
+         background-color: #fdeaea51;
+         border-radius: 10px;
+         margin-top: 5%;
+         width:auto;
+      }
+      .caixa-vaga2{
+         display: grid;
+         grid-template-columns: 300px ;
+         margin-left: 10%;
+         margin-top: 2%;
+         border: 1px solid rgba(0, 0, 0, 0.074);
+         border-radius: 10px;
+         width: 500px;
+         height: 120px;
+         padding: 20px;
+      }
+      #cadastrar{
+         background-color: rgb(139, 16, 16);
+         border-radius: 7px;
+         padding: 10px;
+         color: white;
+         text-align: center;
+         max-height: 20px;
+         margin-right: 80px;
+         cursor: pointer;
+         transition: .5s;
+         border-radius: 20px;
+         width: 100px;
+         margin: auto;
+     }
+     .login-out{
+         display: grid;
+         margin: auto;
+         gap: 10px;
+         background-color: rgba(243, 243, 243, 0.862);
+         border: 1px solid rgba(0, 0, 0, 0.318);
+         border-radius: 20px;
+         padding: 20px;;
+     }
+     #entrar{
+         border: 1px solid rgb(79, 79, 79);
+         padding: 10px;
+         border-radius: 20px;
+         width: 100px;
+         margin: auto;
+         transition: .5s;
+         color: rgb(10, 10, 10);
+     }
+     #entrar:hover{
+         color: rgb(255, 255, 255);
+         background-color: black;
+     }
+     .caixa-vaga2{
+      display: grid;
+      grid-template-columns: 300px ;
+      margin-left: 10%;
+      margin-top: 2%;
+      border: 1px solid rgba(0, 0, 0, 0.074);
+      border-radius: 10px;
+      width: 400px;
+      height: 120px;
+      padding: 20px;
+   }
+    aside > h1{
+      margin: 20px;
+      background-color: rgba(237, 237, 237, 0.515);
+      border-radius: 20px;
+      padding: 10px;
+      font-size: 13px;
+   }
+   #comentario{
+         font-size: 15px;
+         margin-bottom: 10px;
+   }
+    }
+    @media screen and (max-width:577px){
+      #container{
+         display: grid;
+         grid-template-columns: 330px;
+         justify-content: center;
+         align-items: center;
+         margin-top: 50px;
+         text-align: center;
+      }
+      #cargo{
+         font-size: 10px;
+      }
+      #vagas > h2{
+         font-size: 24px;
+      }
+      .caixa-vaga2{
+ 
+      }
+      footer > section > h1{
+         font-size: 24px;
+         margin-bottom: 10px;
+      }
+      @media screen and (max-width:563px){
+         input[type="submit"]{
+            margin-top: 10px;
+         }
+      }
+    }
+}
+
+     
