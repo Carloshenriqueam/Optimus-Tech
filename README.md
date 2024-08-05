@@ -1,2 +1,2 @@
 # optimus-tech
- Site ficiticio de Tecnologia, Ferramentas feitas em: HTML, CSS.
+ Site ficiticio de Tecnologia, Ferramentas: HTML e CSS.
